@@ -1,0 +1,41 @@
+﻿html,body{
+    height:100%;
+    padding:0;
+    margin:0;
+}
+body {
+    background-image: url('http://imgsrc.hubblesite.org/hu/db/images/hs-2005-37-a-large_web.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.overlay{
+    height:100%;
+    width: 100%;
+    background-color: rgba(75,75,75,.90);
+    z-index : -1;
+    position:absolute;
+}
+
+.container {
+            margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ui.grid, .ui.divider{
+    margin-top:0rem;
+}
+
+.ui.green.segment{
+
+}
+h1{
+    color:#f9f9f9;
+    font-size:xx-large;
+}
+.contributors{
+    color:#909090;
+    font-size:smaller;
+}
